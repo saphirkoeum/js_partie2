@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Javascript - Partie 2 - Exo 6</title>
+  </head>
+  <body>
+    <h1>Javascript - Partie 2 - Exo 6</h1>
+    <p>Au survol de la souris, chaque image doit changer</p>
+    <!-- METHODE 1 -->
+    <!-- <img src="/js_partie2/img/image1.jpg";
+    onmouseover="this.src='/js_partie2/img/image1_2.jpg'"
+    onmouseout="this.src='/js_partie2/img/image1.jpg'"
+    alt=""/>
+  <img src="/js_partie2/img/image2.jpg";
+    onmouseover="this.src='/js_partie2/img/image2_2.jpg'"
+    onmouseout="this.src='/js_partie2/img/image2.jpg'"
+    alt=""/>
+  <img src="/js_partie2/img/image3.jpg";
+    onmouseover="this.src='/js_partie2/img/image3_2.jpg'"
+    onmouseout="this.src='/js_partie2/img/image3.jpg'"
+    alt=""/>
+  <img src="/js_partie2/img/image4.jpg";
+    onmouseover="this.src='/js_partie2/img/image4_2.jpg'"
+    onmouseout="this.src='/js_partie2/img/image4.jpg'"
+    alt=""/>
+  <img src="/js_partie2/img/image5.jpg";
+    onmouseover="this.src='/js_partie2/img/image5_2.jpg'"
+    onmouseout="this.src='/js_partie2/img/image5.jpg'"
+    alt=""/> -->
+
+    <!-- 2ND METHODE -->
+    <img
+      id="image1"
+      onmouseover="changeImg(id)"
+      onmouseout="backImg(id)"
+      src="/js_partie2/img/image1.jpg"
+      alt="couverture de livre"
+    />
+    <img
+      id="image2"
+      onmouseover="changeImg(id)"
+      onmouseout="backImg(id)"
+      src="/js_partie2/img/image2.jpg"
+      alt="couverture de livre"
+    />
+    <img
+      id="image3"
+      onmouseover="changeImg(id)"
+      onmouseout="backImg(id)"
+      src="/js_partie2/img/image3.jpg"
+      alt="couverture de livre"
+    />
+    <img
+      id="image4"
+      onmouseover="changeImg(id)"
+      onmouseout="backImg(id)"
+      src="/js_partie2/img/image4.jpg"
+      alt="couverture de livre"
+    />
+    <img
+      id="image5"
+      onmouseover="changeImg(id)"
+      onmouseout="backImg(id)"
+      src="/js_partie2/img/image5.jpg"
+      alt="couverture de livre"
+    />
+
+    <script src="script.js"></script>
+  </body>
+</html>
